@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Defina suas preferências de cookies no site e melhore sua experiência.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://google.com">
+  <meta property="og:title" content="Nosso Site">
+  <meta property="og:description" content="Gerencie seus cookies no site para uma melhor navegação.">
+  <meta property="og:image" content="https://suplements-shopping.com/media/images/cookies-banner.png">
+  <title>Política de Cookies</title>
+  <style>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "sc74qjh3p5");
+</script>
+    html, body {
+      height: 100%;
+      margin: 0;
+      margin-top: 60px;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f9;
+      
+      /* 1. O body é um container flex... */
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* 2. ESTA É A MÁGICA: Criamos espaçadores invisíveis */
+    body::before,
+    body::after {
+      content: '';
+      flex: 1; /* Eles crescem igualmente, empurrando o conteúdo para o centro */
+    }
+
+    main {
+      /* O main não precisa mais de nenhuma propriedade flex */
+      /* Ele apenas "existe" para conter o banner */
+    }
+
+    .banner-container {
+      background: #ffffff;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 400px;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .banner-container h2 {
+      font-size: 20px;
+      color: #222;
+      margin-bottom: 15px;
+    }
+
+    .banner-container p {
+      font-size: 15px;
+      color: #555;
+      margin-bottom: 25px;
+      line-height: 1.5;
+    }
+
+    .action-buttons {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      padding: 12px 24px;
+      font-size: 15px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+      outline: none;
+    }
+
+    .accept {
+      background-color: #28a745;
+      color: white;
+    }
+
+    .reject {
+      background-color: #dc3545;
+      color: white;
+    }
+
+    .button:hover {
+      opacity: 0.95;
+      transform: scale(1.03);
+    }
+
+    .button:focus {
+      outline: 3px solid rgba(0, 123, 255, 0.5);
+    }
+    
+    footer {
+        background-color: transparent;
+        color: #6c757d;
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+
+        /* 3. AGORA SIM: Controle o espaçamento aqui sem medo */
+        margin-top: 2000px;
+    }
+
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .footer-content p {
+        margin: 0 0 10px 0;
+    }
+
+    .footer-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-links a {
+        color: #000000;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    .footer-links a:hover {
+        color: #0056b3;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212;
+      }
+
+      .banner-container {
+        background-color: #1e1e1e;
+        color: #ddd;
+        box-shadow: 0 8px 24px rgba(255, 255, 255, 0.05);
+      }
+
+      .banner-container h2 {
+        color: #eee;
+      }
+
+      .banner-container p {
+        color: #bbb;
+      }
+      
+      .footer-links a {
+        color: #8ab4f8;
+      }
+      .footer-links a:hover {
+        color: #aecbfa;
+      }
+    }
+  </style>
+<!-- Inserir este código logo após a tag inicio -->
+<style>
+/* Loading overlay */
+#gtm-loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff; /* <- Alterado para fundo sólido branco */
+  z-index: 999999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  transition: opacity 0.5s ease-out;
+}
+
+  
+  /* Spinner */
+  .gtm-spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #007cba;
+    border-radius: 50%;
+    animation: gtm-spin 1s linear infinite;
+    margin-bottom: 20px;
+  }
+  
+  @keyframes gtm-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Text */
+  .gtm-loading-text {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .gtm-countdown {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Hide overlay when done */
+  .gtm-loading-complete #gtm-loading-overlay {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  /* Prevent page scroll during loading */
+  .gtm-loading-active {
+    overflow: hidden;
+  }
+</style>
+
+<!-- Loading HTML -->
+<div id="gtm-loading-overlay">
+  <div class="gtm-spinner"></div>
+  <div class="gtm-loading-text">Carregando...</div>
+  <div class="gtm-countdown" id="gtm-countdown">3 segundos</div>
+</div>
+
+<script>
+(function() {
+  // Prevent scroll during loading
+  document.body.classList.add('gtm-loading-active');
+  
+  // Timer variables
+  let timeLeft = 3;
+  const countdownEl = document.getElementById('gtm-countdown');
+  
+  // Initialize dataLayer
+  window.dataLayer = window.dataLayer || [];
+  
+  // Track loading start
+  window.dataLayer.push({
+    'event': 'gtm_loading_started',
+    'loading_duration': 3
+  });
+  
+  // Countdown timer
+  const timer = setInterval(function() {
+    timeLeft--;
+    
+    if (timeLeft > 0) {
+      countdownEl.textContent = timeLeft + ' segundos';
+    } else {
+      countdownEl.textContent = 'Finalizando...';
+    }
+    
+    if (timeLeft <= 0) {
+      clearInterval(timer);
+      hideLoading();
+    }
+  }, 1000);
+  
+  // Function to hide loading
+  function hideLoading() {
+    document.body.classList.add('gtm-loading-complete');
+    document.body.classList.remove('gtm-loading-active');
+    
+    // GTM event
+    window.dataLayer.push({
+      'event': 'gtm_loading_completed',
+      'loading_method': 'timer_finished'
+    });
+    
+    // Remove element after transition
+    setTimeout(function() {
+      const overlay = document.getElementById('gtm-loading-overlay');
+      if (overlay && overlay.parentNode) {
+        overlay.parentNode.removeChild(overlay);
+      }
+    }, 500);
+  }
+  
+  // Optional: Skip function for testing (call gtmSkipLoading() in console)
+  window.gtmSkipLoading = function() {
+    clearInterval(timer);
+    window.dataLayer.push({
+      'event': 'gtm_loading_skipped',
+      'loading_method': 'user_skip'
+    });
+    hideLoading();
+  };
+})();
+</script>
+<!-- Inserir este código logo após a tag head fim-->   
+</head>
+<body>
+
+<main>
+  <div class="banner-container">
+    <h2 id="titulo-cookies">Configuração de Cookies</h2>
+    <p id="descricao-cookies">
+      Este site utiliza cookies para oferecer a melhor experiência. Escolha sua configuração preferida:
+    </p>
+    <div class="action-buttons">
+      <button class="button accept"
+        onclick="window.location.href='https://https://google.com/'"
+        aria-label="Aceitar uso de cookies">
+        Aceitar Cookies
+      </button>
+
+      <button class="button reject"
+        onclick="window.location.href='https://https://google.com/'"
+        aria-label="Recusar uso de cookies">
+        Recusar Cookies
+      </button>
+    </div>
+  </div>
+</main>  
+  <footer>
+    <div class="footer-content">
+      <img src="//whos.amung.us/p2/widget/wcwnrk.png" style="border:0" title="Contador de visitas" alt="Contador de visitas"/>
+      <p>&copy; 2025 Todos os direitos reservados.</p>
+      <ul class="footer-links">
+        <li><a href="/politica.html">Política de Privacidade</a></li>
+        <li><a href="/termo.html">Termos de Serviço</a></li>
+        <li><a href="/contato.html">Contato</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
